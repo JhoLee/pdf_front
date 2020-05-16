@@ -1,9 +1,11 @@
-pdf_front/pdf_front/secrets.json
+pdf_front/pdf_front/pdf_front/secrets.json
 
+*/media/*
 .idea/*
 config/secrets.json
+secret_key.txt
 venv2
-pdf_front/media
+pdf_front/pdf_front/media
 
 # Created by https://www.gitignore.io/api/git,vim,node,venv,linux,macos,pycharm,windows,webstorm
 # Edit at https://www.gitignore.io/?templates=git,vim,node,venv,linux,macos,pycharm,windows,webstorm
@@ -18,7 +20,7 @@ pdf_front/media
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3
+pdf_front/db.sqlite3
 db.sqlite3-journal
 pdf_fornt/media
 
